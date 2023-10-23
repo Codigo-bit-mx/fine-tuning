@@ -14,7 +14,7 @@ const transformDate = async () => {
     
         await fs.appendFileSync("shared/data-set.jsonl", object, "utf8", function(){})
         await fs.appendFileSync("shared/data-set.jsonl", "\r\n", "utf8", function(){})
-    }
+    } 
 }
 
 async function uploadFile(){    

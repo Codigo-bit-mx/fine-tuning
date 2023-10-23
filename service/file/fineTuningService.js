@@ -11,7 +11,7 @@ async function CreateFineTune(fileId){
         });
         return response;
     }catch(e){
-        return {status: 400, data: e}
+        return {status: 400, data: e} 
     }
 }
 
